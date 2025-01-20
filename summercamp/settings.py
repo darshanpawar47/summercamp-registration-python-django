@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'summercamp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydb',
+        'NAME': 'dgrt',
         'USER': 'admin',
-        'PASSWORD': 'mypassword',
-        'HOST': 'mydb.creoayka8zlb.us-east-1.rds.amazonaws.com',
+        'PASSWORD': 'grtunbgh',
+        'HOST': 'myhost',
         'PORT': '3306',
     }
 }
