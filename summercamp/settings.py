@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'summercamp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+}'''
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'root',
-        'PASSWORD': 'your_mysql_password',
-        'HOST': 'localhost',
+        'NAME': 'mydb',
+        'USER': 'admin',
+        'PASSWORD': 'mypassword',
+        'HOST': 'mydb.creoayka8zlb.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
-}'''
+}
 
 
 # Password validation
